@@ -1,0 +1,113 @@
+site_name: IPOL 共享知识库
+
+theme:
+  name: material
+  language: zh
+  # custom_dir: overrides
+  features:
+    - announce.dismiss
+    # - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant    不兼容语言切换
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    # - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+
+extra:
+  # 语言
+  alternate:
+    - name: 简体中文
+      link: /zh/
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
+
+# 导航栏
+nav:
+  - home:
+      - index.md
+  # - activity:
+  #     - activity/index.md
+  - tutorial:
+      - tutorial/index.md
+      - how_to_edit: tutorial/how_to_edit.md
+  - about:
+      - about/index.md
+
+# 插件
+plugins:
+  - search
+  - tags
+  - i18n:
+      default_language: zh
+      languages:
+        zh:
+          name: 简体中文
+          site_name: IPOL 共享知识库
+        en:
+          name: English
+          site_name: IPOL Knowledge Sharing Library
+        ja:
+          name: 日本語
+          site_name: IPOL ナレッジ共有ライブラリ
+
+      # 站点导航翻译
+      nav_translations:
+        zh:
+          home: 主页
+          activity: 活动
+          tutorial: 教程站
+          how_to_edit: 如何编辑文章
+          about: 关于
+        en:
+          home: Home
+          activity: Activity
+          tutorial: Tutorial
+          how_to_edit: How to edit
+          about: About
+        ja:
+          home: ホーム
+          tutorial: チュートリアル
+          how_to_edit: 編集方法
+          about: について
