@@ -5,10 +5,10 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
   icon:
     repo: fontawesome/brands/github
-  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
