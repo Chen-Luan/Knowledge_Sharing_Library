@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 欢迎来到 IPOL 共享知识库
 
 你好！这里是 IPOL 共享知识库！
