@@ -1,12 +1,17 @@
 site_name: IPOL 共享知识库
+repo_url: https://github.com/CyanStarsDevelopmentGroup/Knowledge_Sharing_Library
+repo_name: Knowledge_Sharing_Library
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   language: zh
+  icon:
+    repo: fontawesome/brands/github
   # custom_dir: overrides
   features:
     - announce.dismiss
-    # - content.action.edit
+    - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
