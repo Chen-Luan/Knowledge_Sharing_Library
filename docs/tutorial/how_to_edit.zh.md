@@ -1,7 +1,8 @@
 ---
 comments: true
-<meta property="og:title" content="how_to_edit">
 ---
+
+<meta property="og:title" content="how_to_edit">
 
 # 如何编辑文章
 
