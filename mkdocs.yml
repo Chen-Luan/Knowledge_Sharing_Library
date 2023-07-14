@@ -8,7 +8,8 @@ theme:
   language: zh
   icon:
     repo: fontawesome/brands/github
-  # custom_dir: overrides
+  custom_dir: overrides
+  comments: true
   features:
     - announce.dismiss
     - content.action.edit
