@@ -84,6 +84,9 @@ nav:
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      
   - i18n:
       default_language: zh
       languages:
