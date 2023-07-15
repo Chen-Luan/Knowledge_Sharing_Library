@@ -84,8 +84,6 @@ nav:
 plugins:
   - search
   - tags
-  - git-revision-date-localized:
-      enable_creation_date: true
   - i18n:
       default_language: zh
       languages:
@@ -118,3 +116,6 @@ plugins:
           tutorial: チュートリアル
           how_to_edit: 編集方法
           about: について
+
+  - git-revision-date-localized:
+      enable_creation_date: true
