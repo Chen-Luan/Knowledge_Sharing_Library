@@ -371,7 +371,7 @@ pull request 推送请求，简称为 pr，可能是 Git 中另一个最重要�
 
 或点击 `Add file` 新建一篇文章，直接在文件名中输入路径和文件名，以 `\` 表示路径，然后开始编辑。
 
-#### 在本地编辑
+#### 在本地编辑（高级）
 
 推荐使用 Visual Studio Code、GitHub Desktop 等软件进行文件编辑、调试、推送。
 
@@ -385,11 +385,17 @@ pull request 推送请求，简称为 pr，可能是 Git 中另一个最重要�
 
 首次测试前请在 GitHub - 你的仓库 - Action 中启用 Action。
 
-任意编辑并推送后，自动触发网页构建。
+手动创建一个 `gh-pages`的Branch，或任意编辑并推送后，自动触发分支创建和更新。
+
+首次测试前请在 GitHub - 你的仓库 - Settings - Pages 中将 Branch 设为 `gh-pages`，路径设为 `/docs`，并 `save`。
+
+任意编辑并推送后，自动构建网页。
+
+稍等几分钟后，前往 `https://<你的用户名>.github.io/<仓库名>` 查看网页。
 
 #### 在本地测试（高级）
 
-需要 `在本地编辑` 。
+需要 `编辑文章 - 在本地编辑` 。
 
 确保已安装了 Git 和 Python。
 
