@@ -2,8 +2,6 @@
 comments: true
 ---
 
-<meta property="og:title" content="how_to_edit">
-
 # 如何编辑文章
 
 !!! warning "未完成：关于 GitHub 实操的部分还没写。"
