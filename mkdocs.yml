@@ -116,5 +116,6 @@ plugins:
           tutorial: チュートリアル
           how_to_edit: 編集方法
           about: について
+
   - git-revision-date-localized:
       enable_creation_date: true
