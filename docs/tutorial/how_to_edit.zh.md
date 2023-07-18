@@ -385,7 +385,7 @@ pull request 推送请求，简称为 pr，可能是 Git 中另一个最重要�
 
 首次测试前请在 GitHub - 你的仓库 - Action 中启用 Action。
 
-手动创建一个 `gh-pages`的Branch，或任意编辑并推送后，自动触发分支创建和更新。
+手动创建一个 `gh-pages` 的Branch，或任意编辑并推送后，自动触发分支创建和更新。
 
 首次测试前请在 GitHub - 你的仓库 - Settings - Pages 中将 Branch 设为 `gh-pages`，路径设为 `/docs`，并 `save`。
 
