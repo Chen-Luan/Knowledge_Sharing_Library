@@ -358,3 +358,47 @@ pull request 推送请求，简称为 pr，可能是 Git 中另一个最重要�
 - 前往需要 fork 的 repo，点击右上角的 `Fork` 按钮。
 
 - 完成，你拥有了一个 repo 副本，可以看到这个 repo 的名字变成了你的用户名。现在你可以自由在这个副本里编辑，而不会影响 IPOL 共享知识库。
+
+---
+
+### 编辑文章
+
+尽你的毕生所学编辑或新建一篇文章罢，从下面两个操作中选择一项。
+
+#### 在线编辑
+
+请在 `Code` 页找到需要编辑的文章，随后点击右上角的编辑图标。
+
+或点击 `Add file` 新建一篇文章，直接在文件名中输入路径和文件名，以 `\` 表示路径，然后开始编辑。
+
+#### 在本地编辑
+
+推荐使用 Visual Studio Code、GitHub Desktop 等软件进行文件编辑、调试、推送。
+
+---
+
+### 测试网页
+
+从下面两个操作中选择一项。
+
+#### 在 Fork 仓库测试
+
+首次测试前请在 GitHub - 你的仓库 - Action 中启用 Action。
+
+任意编辑并推送后，自动触发网页构建。
+
+#### 在本地测试（高级）
+
+需要 `在本地编辑` 。
+
+确保已安装了 Git 和 Python。
+
+首次启动请安装以下依赖项：
+
+```
+pip install mkdocs-material
+pip install mkdocs-git-revision-date-localized-plugin
+pip install mkdocs-static-i18n
+```
+
+双击文件夹中的 `start.bat`，保持程序启动，访问 <http://127.0.0.1:8000> 来查看效果。
